@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0d0d0d;
+    color: #ffffff;
+}
+
+/* Navegação */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 20px 50px;
+    border-bottom: 3px solid #e62429;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e62429;
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #e62429;
+}
+
+/* Banner de Destaque */
+.hero-banner {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('https://unsplash.com') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-banner h1 {
+    font-size: 60px;
+    color: #e62429;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.9);
+}
+
+.hero-banner p {
+    font-size: 20px;
+    max-width: 600px;
+}
+
+/* Grid de Heróis */
+.container {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.team-section h2, .recruitment-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+    color: #e62429;
+}
+
+.heroes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.hero-card {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hero-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(230, 36, 41, 0.4);
+}
+
+.hero-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.hero-card-content {
+    padding: 20px;
+}
+
+.hero-card-content h3 {
+    margin-bottom: 10px;
+}
+
+.hero-card-content p {
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+/* Área de Recrutamento */
+.recruitment-section {
+    text-align: center;
+    margin-top: 60px;
+    background-color: #1a1a1a;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.recruitment-section p {
+    margin: 15px 0 25px;
+}
+
+.cta-button {
+    background-color: #e62429;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.cta-button:hover {
+    background-color: #ff3b3b;
+}
+
+.cta-button:active {
+    transform: scale(0.95);
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #0a0a0a;
+    color: #777;
+}
