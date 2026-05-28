@@ -6,9 +6,9 @@ const baseHeroes = [
         image: "https://unsplash.com"
     },
     {
-        name: "Capitão América (Sam Wilson)",
+        name: "Capitão América (Steve Rogers)",
         role: "Líder, estrategista e portador do escudo de Vibranium.",
-        image: "https://unsplash.com"
+        image: ""
     },
     {
         name: "Thor (Deus do Trovão)",
