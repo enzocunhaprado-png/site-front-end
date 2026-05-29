@@ -8,7 +8,7 @@ const baseHeroes = [
     {
         name: "Capitão América (Steve Rogers)",
         role: "Líder, estrategista e portador do escudo de Vibranium.",
-        image: ""
+        image: "./assets/steverogers.webp"
     },
     {
         name: "Thor (Deus do Trovão)",
