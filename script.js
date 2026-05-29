@@ -3,7 +3,7 @@ const baseHeroes = [
     {
         name: "Homem de Ferro (Tony Stark)",
         role: "Gênio, bilionário e filantropo com armadura tecnológica.",
-        image: "https://unsplash.com"
+        image: "./assets/homemdeferro.webp"
     },
     {
         name: "Capitão América (Steve Rogers)",
@@ -13,12 +13,12 @@ const baseHeroes = [
     {
         name: "Thor (Deus do Trovão)",
         role: "Príncipe de Asgard com poderes divinos e o martelo Mjölnir.",
-        image: "https://unsplash.com"
+        image: "./assets/thor.webp"
     },
     {
         name: "Hulk (Bruce Banner)",
         role: "O ser mais forte que existe, com força e resistência ilimitadas.",
-        image: "https://unsplash.com"
+        image: "./assets/hulk.webp"
     },
     {
         name: "Viúva Negra (Natasha Romanoff)",
